@@ -1,0 +1,7 @@
+CC = g++
+BOOSTLIBR = /usr/include/boost/
+CFLAGS = -g -Werror -Wall -I $(BOOSTLIBR)
+
+
+all:
+	$(CC) $(CFLAGS) main.cpp
